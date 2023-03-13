@@ -1,4 +1,4 @@
-FROM bitnami/spark:3.3.2-debian-11-r7
+FROM bitnami/spark:3.3.2
 USER root
 RUN apt-get update \
   && apt-get install -y --no-install-recommends curl
