@@ -1,5 +1,5 @@
 FROM bitnami/spark:3.3.2-debian-11-r7
-USER ROOT
+USER root
 RUN apt-get update \
   && apt-get install -y --no-install-recommends curl
 USER 1001
